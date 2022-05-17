@@ -1,0 +1,7 @@
+Hello {{user.username}}
+
+A new blog {{post.title}} has been posted
+
+Here are some of the details
+Title {{post.title}}
+Description{{post.post}}
