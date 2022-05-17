@@ -17,7 +17,7 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME = 'mimowaruguru@gmail.com'
-    MAIL_PASSWORD = 'Mangojuice@54'
+    MAIL_PASSWORD = ''
     SUBJECT_PREFIX = 'BlogsLive'
     SENDER_EMAIL = 'mimowaruguru@gmail.com'
 
