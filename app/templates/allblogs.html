@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+
+{% block content %}
+<div class="container">
+<link rel ="stylesheet" type="text/css" href="{{url_for('static', filename='styles/index.css')}}">
+
+  <h1>Blogs</h1>
+  <div class="col-md-6">
+    <h2>Blogs Posted</h2>
+      <button class="btn btn-default"><a href="/new/post"> Create a new Blog</a></button>
+    </div>
+    <div class="col-md-9">
+  
+     
+      <ul>
+        {% for post in posts %}
+        <div id="card1">
+            
+            <h2> {{ post.title}} </h2>
+            <p>{{post.post}}</p>
+            <hr>
+
+                <p> {{ post.posted }}</p>
+
+                <div>
+
+                    <button class="btn btn danger" id="bt1"><a href="/post/comment">comment</a></button>
+
+                </div>
+
+                    
+
+                </div>
+        {% endfor %}
+
+     </ul>
+
+    </div>
+  </div>
+{% endblock%}
