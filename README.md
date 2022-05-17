@@ -36,3 +36,4 @@ This flask app allows a user to create, view and comment on blogs. The user can 
 You can reach me at[maureenwaruguru@gmail.com]
 
 ## You can view the site here
+BlogLive [https://mimobloglive.herokuapp.com/]
