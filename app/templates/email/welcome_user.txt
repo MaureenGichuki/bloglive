@@ -1,0 +1,8 @@
+Hey There! {{user.username}}
+
+Welcome to BlogLive. We are excited to have you
+on board. You can now post your blogs and view 
+blog posts by other users.
+
+Regards
+The BlogLive Team
